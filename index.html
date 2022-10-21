@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="/assets/img/profile.png" type="image/x-icon">
+</head>
+
+<body>
+  <div class="contenedor-header">
+    <header>
+      <div class="logo">
+        <a href="#">George</a>
+      </div>
+      <nav id="nav">
+        <ul>
+          <li><a href="#inicio" onclick="Seleccionar()">Home</a></li>
+          <li><a href="#aboutme" onclick="Seleccionar()">About Me</a></li>
+          <li><a href="#skills" onclick="Seleccionar()">Skills</a></li>
+          <li><a href="#curriculum" onclick="Seleccionar()">Curriculum</a></li>
+          <li><a href="#portfolio" onclick="Seleccionar()">Portfolio</a></li>
+          <li><a href="#contact" onclick="Seleccionar()">Contact me</a></li>
+        </ul>
+      </nav>
+      <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </header>
+  </div>
+
+  <!--Seccion Inicio-->
+  <section id="inicio" class="inicio">
+    <div class="contenido-banner">
+      <div class="contenedor-img">
+        <img src="./assets/img/profile.png" alt="" />
+      </div>
+      <h1>George</h1>
+      <h2> IT Security- Web Designer <br>Wordpress Developer</h2>
+      <div class="redes">
+        <a href="https://www.facebook.com/jorge.roman.792740/" target="_blank"><i
+            class="fa-brands fa-facebook-f"></i></a>
+
+        <a href="https://www.linkedin.com/in/jorge-roman-baa59a43/" target="_blank"><i
+            class="fa-brands fa-linkedin-in"></i></a>
+
+        <a href="https://join.skype.com/invite/bysUNqjnsxq4" target="_blank"><i class="fa-brands fa-skype"></i></a>
+
+        <a href="https://www.instagram.com/romansmartgeek5/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </div>
+  </section>
+  <section class="sobremi" id="aboutme">
+    <div class="contenido-section">
+      <h2>About Me</h2>
+      <p>
+        <span>Hi, I am George. </span> I am a Tech Engineer Mid Level
+        I am also, a Content Developer and I work in Front End, also I have been working in HMTL Email Development (from
+        the scratch and
+        responsive), besides that, I have been working in layouts for Bootstrap. Work with CMS's like AEM (basic to
+        MID), WP and Joomla,
+        including the most popular web frameworks and Content Management Systems.knowledge Design, Web Design and
+        programming skills with + 1 year software development ex
+      </p>
+
+      <div class="fila">
+        <!--Personal Data-->
+        <div class="col">
+          <h3>Personal Data</h3>
+          <ul>
+            <li>
+              <strong>BirthDay</strong>
+              11-02-1970
+            </li>
+
+            <li>
+              <strong>Phone</strong>
+              +506 86526483
+            </li>
+
+            <li>
+              <strong>Email</strong>
+              jorgeromanctibas@hotmail.com
+            </li>
+
+            <li>
+              <strong>Website</strong>
+              www.example.com
+            </li>
+            <li>
+              <strong>Address</strong>
+              Maxi Pali Tibas, Residencial Las Reinas casa 9B
+
+            </li>
+            <li>
+              <strong>Position</strong>
+              <span>Content Manager-Freelancer</span>
+            </li>
+          </ul>
+        </div>
+
+        <!--Interesting-->
+
+        <div class="col">
+          <h3>Interestings</h3>
+          <div class="contenedor-intereses">
+            <div class="intereses">
+              <i class="fa-solid fa-futbol"></i>
+              <span>Football</span>
+            </div>
+
+            <div class="intereses">
+              <i class="fa-solid fa-headphones"></i>
+              <span>Music</span>
+            </div>
+
+            <div class="intereses">
+              <i class="fa-sharp fa-solid fa-compass"></i>
+              <span>Travel</span>
+            </div>
+
+            <div class="intereses">
+              <i class="fa-solid fa-book"></i>
+              <span>Read</span>
+            </div>
+
+
+            <div class="intereses">
+              <i class="fa-solid fa-person-hiking"></i>
+              <span>Hiking</span>
+            </div>
+
+            <div class="intereses">
+              <i class="fa-solid fa-gamepad"></i>
+              <span>Games</span>
+            </div>
+
+            <div class="intereses">
+              <i class="fa-solid fa-baseball"></i>
+              <span>Baseball</span>
+            </div>
+
+            <div class="intereses">
+              <i class="fa-solid fa-person-skating"></i>
+              <span>Skating</span>
+            </div>
+
+
+
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <button>
+
+      <a download="" href="/assets/Pdf/CV.pdf">Download CV </a><i class="fa-solid fa-download"></i>
+      <span class="overlay"></span>
+
+    </button>
+  </section>
+
+  <section id="skills" class="skills">
+    <div class="contenido-seccion">
+      <h2>Skills</h2>
+      <div class="fila">
+        <!--Technical Skills-->
+        <div class="col">
+          <h3>Technical Skills</h3>
+
+          <div class="skill">
+            <span>HTML</span>
+            <div class="barra-skill">
+              <div class="progreso">
+                <span>95%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <span>CSS3</span>
+            <div class="barra-skill">
+              <div class="progreso">
+                <span>90%</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>Javascript</span>
+            <div class="barra-skill">
+              <div class="progreso">
+                <span>75%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <span>PHP</span>
+            <div class="barra-skill">
+              <div class="progreso">
+                <span>90%</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>Wordpress</span>
+            <div class="barra-skill">
+              <div class="progreso">
+                <span>99%</span>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="skill">
+            <span>Woocommerce</span>
+            <div class="barra-skill">
+              <div class="progreso">
+                <span>90%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <span>SQL</span>
+            <div class="barra-skill">
+              <div class="progreso">
+                <span>99%</span>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="skill">
+            <span>Figma</span>
+            <div class="barra-skill">
+              <div class="progreso">
+                <span>85%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <span>Photoshop</span>
+            <div class="barra-skill">
+              <div class="progreso">
+                <span>85%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <span>Cpanel</span>
+            <div class="barra-skill">
+              <div class="progreso">
+                <span>80%</span>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="skill">
+            <span>AWS</span>
+            <div class="barra-skill">
+              <div class="progreso">
+                <span>80%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <span>Bootstrap</span>
+            <div class="barra-skill">
+              <div class="progreso">
+                <span>99%</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>Drupal</span>
+            <div class="barra-skill">
+              <div class="progreso">
+                <span>85%</span>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="skill">
+            <span>Magento</span>
+            <div class="barra-skill">
+              <div class="progreso">
+                <span>99%</span>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="skill">
+            <span>Joomla</span>
+            <div class="barra-skill">
+              <div class="progreso">
+                <span>85%</span>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+        </div>
+
+        <div class="col">
+          <h3>Professional Skills</h3>
+          <div class="skill">
+            <span>Teamwork</span>
+            <div class="barra-skill">
+              <div class="progreso">
+                <span>99%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <span>Creativity</span>
+            <div class="barra-skill">
+              <div class="progreso">
+                <span>99%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <span>Dedication</span>
+            <div class="barra-skill">
+              <div class="progreso">
+                <span>85%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <span>Proyect Management</span>
+            <div class="barra-skill">
+              <div class="progreso ">
+                <span>85%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <span>Editorial staff</span>
+            <div class="barra-skill">
+              <div class="progreso ">
+                <span>90%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <span>Troubleshooting</span>
+            <div class="barra-skill">
+              <div class="progreso">
+                <span>99%</span>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="skill">
+            <span>Critical Thinking</span>
+            <div class="barra-skill">
+              <div class="progreso">
+                <span>85%</span>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="skill">
+            <span>Proactive</span>
+            <div class="barra-skill">
+              <div class="progreso">
+                <span>90%</span>
+              </div>
+            </div>
+          </div>
+
+
+
+
+          <div class="skill">
+            <span>Attention to Details</span>
+            <div class="barra-skill">
+              <div class="progreso">
+                <span>90%</span>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+
+
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section id="curriculum" class="curriculum">
+    <div class="contenido-seccion">
+      <h2>Curriculum</h2>
+      <div class="fila">
+        <div class="col izquierda">
+          <h3>Education</h3>
+          <div class="item izq">
+            <h4>System Engineering</h4>
+            <span class="casa">Ulacit</span>
+            <span class="fecha">2015 – 2022 </span>
+            <p> Third year of Carreer of System of Engineering
+
+
+            </p>
+            <div class="conectori">
+              <div class="cirucloi"></div>
+            </div>
+
+
+
+          </div>
+
+          <div class="item izq">
+            <h4>FrontEnd Developer</h4>
+            <span class="casa">Coursera</span>
+            <span class="fecha">2019 - 2022</span>
+            <p>
+              Advanced studies in the field of frontend Developer through the Coursera platform.
+            </p>
+            <div class="conectori">
+              <div class="cirucloi"></div>
+            </div>
+          </div>
+
+          <div class="item izq">
+            <h4>Wordpress Developer</h4>
+            <span class="casa">Coursera</span>
+            <span class="fecha">2020 - Present</span>
+            <p>Advanced studies in frontend development and backend developer using the wordpress platform for content
+              management.</p>
+            <div class="conectori">
+              <div class="cirucloi"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col derecha">
+          <h3>Work Experience</h3>
+          <div class="item der">
+            <h4>QUALFON | Technology Company | Heredia</h4>
+            <span class="casa">Engineer Level 2</span>
+            <span class="fecha">January 2022 – Current day</span>
+            <p>Tshoot of different devices and tools related to Lytx.</p>
+            <div class="conectord">
+              <div class="ciruclod"></div>
+            </div>
+          </div>
+
+          <div class="item der">
+            <h4>INFOTREE | Procter & Gamble [Massive Comsuption Product Company] | San Jose</h4>
+            <span class="casa">Automation Engineer</span>
+            <span class="fecha">February 2020 – February 2021</span>
+            <p>Automation of processes and workflows (using Advanced Excel, Power BI, Knime, SAP, Databricks, Citrix,
+              Citrix Receiver, etc)
+              Testing and troubleshooting of QA automation Macros and jobs
+              Business Processes Documentation
+              Documentation of processes and workflows of different categories.
+            </p>
+            <div class="conectord">
+              <div class="ciruclod"></div>
+            </div>
+          </div>
+
+          <div class="item der">
+            <h4>[Clouding and Software Technology Company] | San Pedro
+              Microsoft Azure Engineer – Intermediate Level</h4>
+            <span class="casa">TEK XPERTS</span>
+            <span class="fecha">Aug 2019 – November 2019, Temporary Contract</span>
+            <p>Azure AD, clouding and virtualization issues
+              <br>
+              - Troubleshooting Config & Perf PAAS issues being in contact with other departments: SAAS & DevOps.
+              <br> <br>
+
+
+              - Creation of VMs and VNets (Deployments) – Virtual Box, Citrix, VMWare, HPUX, Xen, etc.
+              <br><br>
+              - VNet-to-VNet VPN connections (VPN Gateway´s peering).
+              <br><br>
+              – Site to Site and Point to Site
+              <br><br>
+              - VPN subnet connections
+              <br><br>
+              - Adding Memory and Storage to the different VMs
+              <br><br>
+              - Layer 1/2/3, FC
+              - Testing and troubleshooting of QA automation jobs
+            </p>
+            <div class="conectord">
+              <div class="ciruclod"></div>
+            </div>
+          </div>
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+    </div>
+  </section>
+
+  <!--Seccion Portfolio-->
+  <section id="portfolio" class="portfolio">
+    <div class="contenido-seccion">
+      <h2>PORTFOLIO</h2>
+      <div class="galeria">
+
+
+
+        <div class="proyecto">
+          <img src="assets/img/1.png" alt="">
+
+          <div class="overlay">
+            <h3>Acunitedfw.com</h3>
+            <p>Wordpress Site</p>
+          </div>
+        </div>
+
+
+        <div class="proyecto">
+          <img src="assets/img/2.png" alt="">
+          <div class="overlay">
+            <h3>Biocdkeys</h3>
+            <p>Shopify Website</p>
+          </div>
+        </div>
+
+
+        <div class="proyecto">
+          <img src="assets/img/3.png" alt="">
+          <div class="overlay">
+            <h3>BESTMEX</h3>
+            <p>.Net Site</p>
+          </div>
+        </div>
+
+
+        <div class="proyecto">
+          <img src="assets/img/4.png" alt="">
+          <div class="overlay">
+            <h3>Wooly Vane</h3>
+            <p>Wordpress</p>
+          </div>
+        </div>
+
+
+        <div class="proyecto">
+          <img src="assets/img/5.png" alt="">
+          <div class="overlay">
+            <h3>Little White Maid</h3>
+            <p>Google Site</p>
+          </div>
+        </div>
+
+
+        <div class="proyecto">
+          <img src="assets/img/6.png" alt="">
+          <div class="overlay">
+            <h3>Web Media Power</h3>
+            <p>Wordpress Site</p>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+      </div>
+    </div>
+  </section>
+
+  <!--Contact Seccion-->
+
+  <section id="contact" class="contacto">
+    <div class="contenido-seccion">
+      <h2>CONTACT</h2>
+      <div class="fila">
+        <!--FORM-->
+        <div class="col">
+          <input type="text" placeholder="Your Name">
+          <input type="text" placeholder="Phone Number">
+          <input type="text" placeholder="Email">
+          <input type="text" placeholder="Topic">
+          <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+          <button>
+            Send Message<i class="fa-solid fa-paper-plane"></i>
+            <span class="overlay"></span>
+          </button>
+        </div>
+        <!--MAP-->
+        <div class="col">
+          <img src="./assets/img/Map.png" alt="Map">
+          <div class="info">
+            <ul>
+              <li>
+                <i class="fa-solid fa-location-dot"></i>
+                Maxi Pali Tibas, Residencial Las Reinas casa 9B
+              </li>
+
+              <li>
+                <i class="fa-solid fa-mobile-screen"></i>
+               Phone: +506 8652-6183
+              </li>
+
+              <li>
+              
+                <i class="fa-solid fa-envelope"></i>
+                Email: jorgeromanctibas@hotmail.com
+                
+              </li>
+
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <a href="#inicio" class="arriba">
+      <i class="fa-solid fa-angles-up"></i>
+    </a>
+    <div class="redes">
+      <a href="https://www.facebook.com/jorge.roman.792740/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+
+      <a href="https://www.linkedin.com/in/jorge-roman-baa59a43/" target="_blank"><i
+          class="fa-brands fa-linkedin-in"></i></a>
+
+      <a href="https://join.skype.com/invite/bysUNqjnsxq4" target="_blank"><i class="fa-brands fa-skype"></i></a>
+
+      <a href="https://www.instagram.com/romansmartgeek5/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
